@@ -1,0 +1,48 @@
+@import '~normalize.css';
+@import 'variables.css';
+@import 'fonts';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;    
+}
+
+.btn {
+
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    &__count {
+        position: absolute;
+        right: -4px;
+        top: -1px;
+        background-color: var(--dark-color);
+        color: var(--white-color);
+        font-size: 9px;
+        font-weight: 700;
+        padding: 3px 5px;
+        border-radius: 15px;
+    }
+
+    &--icon {
+        border: none;
+        background-color: transparent;
+    }
+}
