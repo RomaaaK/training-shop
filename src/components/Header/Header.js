@@ -1,4 +1,3 @@
-import Container from '../Container/Container'
 import './Header.style.scss'
 import Icon from '../Icon/Icon'
 
@@ -6,7 +5,7 @@ function Header() {
     return (
         <header className='header'>
             <div className='header__top-bar'>
-                <Container className='header__container'>
+                <div className='container header__container'>
                     <div className='contacts header__contacts'>
                         <div className='contacts__phone'><Icon icon='phone' size='small' /><p>+375 29 100 20 30</p></div>
                         <div className='contacts__address'><Icon icon='location-marker' size='small' /><p>Belarus, Gomel, Lange 17</p></div>
@@ -36,9 +35,9 @@ function Header() {
                             </li>
                         </ul>
                     </div>
-                </Container>
+                </div>
             </div>
-                <Container className='header__container header__bottom-bar'>
+                <div className='container header__container header__bottom-bar'>
                     <div className='header__logo logo'>
                         <a className='logo__link link' href='/'>CleverShop</a>
                     </div>
@@ -94,7 +93,7 @@ function Header() {
                             </li>
                         </ul>
                     </div>
-                </Container>
+                </div>
         </header>
     )
 }

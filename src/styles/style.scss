@@ -10,6 +10,16 @@ body {
     font-family: 'Spartan', sans-serif;;
 }
 
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .link {
     text-decoration: none;
     color: var(--dark-color);
