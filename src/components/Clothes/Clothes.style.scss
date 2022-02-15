@@ -1,0 +1,67 @@
+.clothes {
+
+    font-family: 'Spartan', sans-serif;
+    padding-top: 78px;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 25px;
+        letter-spacing: 0.06em;
+        color: #121212;
+        text-transform: uppercase;
+    }
+
+    &__filter {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 13px;
+        letter-spacing: 0.06em;
+        color: #121212;
+        text-transform: uppercase;
+
+        &.active {
+            font-weight: 600;
+        }
+
+        &--full-screen {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #F8F8F8;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
+            height: 48px;
+
+            & > span {
+                opacity: .8;
+            }
+        }
+    }
+
+    &__list {
+        padding-top: 28px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        margin-bottom: 48px;
+    }
+}

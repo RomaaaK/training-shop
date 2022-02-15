@@ -7,4 +7,17 @@
         width: 14px;
         height: 14px;
     }
+
+    &--large {
+        width: 40px;
+        height: 40px;
+    }
+
+    &--enable {
+        fill: #F0CC84;
+    }
+
+    &--disable {
+        fill: #E5E5E5;
+    }
 }

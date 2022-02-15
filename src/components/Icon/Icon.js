@@ -9,8 +9,9 @@ function Icon(props) {
         styleList.push('icon--' + props.size)
     }
 
+
     return (
-        <svg className={styleList.join(' ')}>
+        <svg className={styleList.join(' ')} style={{fill: props.fill}}>
             <use xlinkHref={icon}></use>
         </svg>
     )
